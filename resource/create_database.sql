@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS Users
+(
+    "no" INTEGER PRIMARY KEY NOT NULL ,
+    "user_id" TEXT NOT NULL,
+    "stock" TEXT NOT NULL,
+    "price" REAL NOT NULL
+)
